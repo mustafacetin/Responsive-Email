@@ -5,7 +5,7 @@ A few layout ideas for HTML email that adapt to small screens and respond to bre
 This template *is not* meant to be used out of the box. Any email derived from this code should always be tested.
 
 ## Demo
-* [Demo](http://tedgoas.github.io/Responsive-Email-XX/)
+* [Demo](http://playground.travelbird.info/GitHub/Responsive-Email/)
 
 ## Tested In
 * Webmail: Hotmail, Gmail, Yahoo!, AOL
