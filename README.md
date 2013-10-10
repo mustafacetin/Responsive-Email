@@ -26,9 +26,6 @@ This template *is not* meant to be used out of the box. Any email derived from t
 * [Corporate Ipsum](http://cipsum.com/) by Cameron Brister
 * [Placeholder Images](http://placehold.it/) by Brent Spore.
 
-## Download, Fork, Commit.
-If you can make this better, please download, fork, and submit a pull request. I'd love to work on this with a few folks and get it as solid as can be.
-
 
            ^...^   owlfurty
           / o,o \
