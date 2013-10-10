@@ -28,3 +28,9 @@ This template *is not* meant to be used out of the box. Any email derived from t
 
 ## Download, Fork, Commit.
 If you can make this better, please download, fork, and submit a pull request. I'd love to work on this with a few folks and get it as solid as can be.
+
+
+           ^...^   owlfurty
+          / o,o \
+          |):::(|
+        ====w=w===
