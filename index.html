@@ -47,6 +47,10 @@
                     text-align: center!important;
                 }
                 /* Force elements to resize to full width of their container */
+                img[class="logo"] {
+                    width: 100% !important;
+                    height: auto;
+                }
                 img[class="fluid"] {
                     width: 100% !important;
                     height: auto;
@@ -64,12 +68,36 @@
                     display: block !important;
                     width: 100% !important;
                 }
+                table[class="force-col-center"] {
+                    width: 100% !important;
+                }
                 td[class="force-col-center"] {
                     text-align: center !important;
                 }
                 img[class="force-col-center"] {
                     margin: auto !important;
                 }
+
+                /* Force table cells into rows */
+                td[class="force-col-center-lineheight"] {
+                    display: block !important;
+                    width: 100% !important;
+                }
+                td[class="force-col-center-lineheight"] {
+                    text-align: center !important;
+                }
+                
+                td[class="force-col-center-logo"] {
+                    display: block!important;
+                    margin: 0!important;
+                }
+
+                img[class="force-col-center-logo"] {
+                    margin: auto !important;
+                    width: 40%!important;
+                    height: auto!important;
+                }
+
                 /* unset table alignment and force into rows with spacing */
                 table[class="col-3"] {
                     float: none !important;
@@ -117,6 +145,15 @@
                 img[class="hh-force-col-center"] {
                     margin: 0 auto 20px auto !important;
                 }
+                td[class="hh-force-col-center-logo"] {
+                    display: block!important;
+                    margin: 0!important;
+                }
+
+                img[class="hh-force-col-center-logo"] {
+                    margin: auto !important;
+                    width: 50%!important;
+                }
                 img[class="col-3-img-r"], img[class="col-3-img-l"] {
                     margin: auto !important;
                     float: none !important;
@@ -162,13 +199,12 @@
                         <table border="0" width="670" cellpadding="0" cellspacing="0" align="center" class="email-container">
                             <tbody>
                                 <tr>
-                                    <td class="force-col-center" valign="middle" style="text-align: left;">
-                                        <img src="http://vicinity.picsrv.net/2881/0/6635/logo-newsletter-new.jpg" height="90" width="300" border="0" style="display: block;" class="force-col-center">
+                                    <td class="force-col-center-logo" valign="middle" style="text-align: left;">
+                                        <img src="http://vicinity.picsrv.net/2881/0/6635/logo-newsletter-new.jpg" height="90" width="300" border="0" style="display: block;" class="force-col-center-logo">
                                     </td>
                                     <td height="20" style="font-size: 0; line-height: 0;" class="force-col-center">&nbsp;</td>
                                     <td class="force-col-center" valign="middle" style="text-align: right;" align="right">
-                                        <br>
-                                        <br> <a style="color:#88898b;text-decoration:underline; font-family: helvetica, arial, sans-serif; font-size: 13px;" href="http://vicinity.picsrv.net/2881/61fcf7c132b5da9793862c14cf0e685e/51464" target="_blank">Bekijk de webversie</a> 
+                                        <a style="color:#88898b;text-decoration:underline; font-family: helvetica, arial, sans-serif; font-size: 13px;" href="http://vicinity.picsrv.net/2881/61fcf7c132b5da9793862c14cf0e685e/51464" target="_blank">Bekijk de webversie</a> 
                                     </td>
                                 </tr>
                                 <tr>
@@ -882,15 +918,17 @@
                 <tr>
                     <td height="20">&nbsp;</td>
                 </tr>
+                
+                <!-- Footer Info : BEGIN -->
                 <tr>
                     <td style="background: #f3f3f3;">
-                        <table border="0" width="670" cellpadding="0" cellspacing="0" align="center" class="fluid">
+                        <table border="0" width="670" cellpadding="0" cellspacing="0" align="center" class="email-container">
                             <tbody>
                                 <tr>
                                     <td height="20" style="font-size: 0; line-height: 0;">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="hh-force-col-center" valign="top" class="fluid">
+                                    <td class="force-col-center" valign="top" class="force-col-center">
                                         <table border="0" cellpadding="0" cellspacing="0">
                                             <tbody>
                                                 <tr>
@@ -929,28 +967,26 @@
                                             </tbody>
                                         </table>
                                     </td>
-                                    <td valign="top" class="hh-force-col-center" width="338">
-                                        <table cellpadding="0" cellspacing="0" border="0" class="fluid">
+                                    <td valign="top" class="force-col-center" width="338">
+                                        <table cellpadding="0" cellspacing="0" border="0" class="force-col-center">
                                             <tbody>
                                                 <tr>
-                                                    <td valign="top" style="font-family: helvetica, arial, sans-serif; font-size: 14px; line-height: 18px;color: #010101; " class="force-col"> <span style="font-size: 18px; color: #020202;">Heb je nog vragen?</span>
+                                                    <td valign="top" style="font-family: helvetica, arial, sans-serif; font-size: 14px; line-height: 18px;color: #010101; " class="force-col"> 
+                                                        <span style="font-size: 18px; color: #020202;">Heb je nog vragen?</span>
 
                                                         <br>
                                                         <br>Bel: 020-30 80 400
-                                                        <br> <span style="font-family:Arial,Helvetica,sans-serif;color:#7c7c7c;font-size:12px">(Op werkdagen van 09.00 tot 22.00 uur<br>In het weekend van 10:00 tot 18:00 uur.)</span>
+                                                        <br><span style="font-family:Arial,Helvetica,sans-serif;color:#7c7c7c;font-size:12px">(Op werkdagen van 09.00 tot 22.00 uur<br>In het weekend van 10:00 tot 18:00 uur.)</span>
 
-                                                        <br>&nbsp;
-                                                        <table width="100%" class="fluid" cellspacing="0" cellpadding="0" border="0" height="33">
+                                                        <br><br>
+                                                        <table width="320" class="fluid" cellspacing="0" cellpadding="0" border="0" height="33" class="fluid">
                                                             <tbody>
                                                                 <tr>
-                                                                    <td width="301" valign="bottom" align="left" style="font-size:13px;color:#020202;">
+                                                                    <td width="301" valign="bottom" style="font-size:13px;color:#020202;">
                                                                         <img width="40" height="39" alt="" src="http://vicinity.picsrv.net/2881/0/19/paypal-small-first.jpg">
                                                                         <img width="44" height="39" alt="" src="http://vicinity.picsrv.net/2881/0/18/master-small.jpg">
                                                                         <img width="44" height="39" alt="" src="http://vicinity.picsrv.net/2881/0/28/visa-small.jpg">
                                                                         <img width="44" height="39" alt="" src="http://vicinity.picsrv.net/2881/0/14/ideal-small.jpg">
-                                                                    </td>
-                                                                    <td width="24" align="center" style="font-size:13px;color:#020202;">
-                                                                        <img width="16" height="39" alt="" src="http://vicinity.picsrv.net/2881/0/8/blankg.jpg" style="float:left;padding-right:8px;border:none">
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
@@ -968,9 +1004,16 @@
                         </table>
                     </td>
                 </tr>
+                <!-- Footer Info : END -->
+
+
+
             </tbody>
         </table>
         <!-- Email Container : END -->
+
+
+
         <!-- Footer : BEGIN -->
         <table border="0" width="650" cellpadding="0" cellspacing="0" align="center" class="email-container">
             <tbody>
